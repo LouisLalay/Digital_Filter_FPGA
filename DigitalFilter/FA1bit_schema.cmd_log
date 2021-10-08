@@ -1,0 +1,34 @@
+xst -intstyle ise -ifn "/home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter/FA1bit_schema.xst" -ofn "/home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter/FA1bit_schema.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-4 FA1bit_schema.ngc FA1bit_schema.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o FA1bit_schema_map.ncd FA1bit_schema.ngd FA1bit_schema.pcf 
+par -w -intstyle ise -ol high -t 1 FA1bit_schema_map.ncd FA1bit_schema.ncd FA1bit_schema.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FA1bit_schema.twx FA1bit_schema.ncd -o FA1bit_schema.twr FA1bit_schema.pcf 
+xst -intstyle ise -ifn "/home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter/FA1bit_schema.xst" -ofn "/home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter/FA1bit_schema.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-4 FA1bit_schema.ngc FA1bit_schema.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o FA1bit_schema_map.ncd FA1bit_schema.ngd FA1bit_schema.pcf 
+par -w -intstyle ise -ol high -t 1 FA1bit_schema_map.ncd FA1bit_schema.ncd FA1bit_schema.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FA1bit_schema.twx FA1bit_schema.ncd -o FA1bit_schema.twr FA1bit_schema.pcf 
+bitgen -intstyle ise -f FA1bit_schema.ut FA1bit_schema.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FA1bit_schema.ucf -p xc3s250e-cp132-4 FA1bit_schema.ngc FA1bit_schema.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o FA1bit_schema_map.ncd FA1bit_schema.ngd FA1bit_schema.pcf 
+par -w -intstyle ise -ol high -t 1 FA1bit_schema_map.ncd FA1bit_schema.ncd FA1bit_schema.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FA1bit_schema.twx FA1bit_schema.ncd -o FA1bit_schema.twr FA1bit_schema.pcf -ucf FA1bit_schema.ucf 
+bitgen -intstyle ise -f FA1bit_schema.ut FA1bit_schema.ncd 
+bitgen -intstyle ise -f FA1bit_schema.ut FA1bit_schema.ncd 
+xst -intstyle ise -ifn "/home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter/FA1bit_schema.xst" -ofn "/home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter/FA1bit_schema.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FA1bit_schema.ucf -p xc3s250e-cp132-4 FA1bit_schema.ngc FA1bit_schema.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o FA1bit_schema_map.ncd FA1bit_schema.ngd FA1bit_schema.pcf 
+par -w -intstyle ise -ol high -t 1 FA1bit_schema_map.ncd FA1bit_schema.ncd FA1bit_schema.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FA1bit_schema.twx FA1bit_schema.ncd -o FA1bit_schema.twr FA1bit_schema.pcf -ucf FA1bit_schema.ucf 
+bitgen -intstyle ise -f FA1bit_schema.ut FA1bit_schema.ncd 
+xst -intstyle ise -ifn "/home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter/FA1bit_schema.xst" -ofn "/home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter/FA1bit_schema.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FA1bit_schema.ucf -p xc3s250e-cp132-4 FA1bit_schema.ngc FA1bit_schema.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o FA1bit_schema_map.ncd FA1bit_schema.ngd FA1bit_schema.pcf 
+par -w -intstyle ise -ol high -t 1 FA1bit_schema_map.ncd FA1bit_schema.ncd FA1bit_schema.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FA1bit_schema.twx FA1bit_schema.ncd -o FA1bit_schema.twr FA1bit_schema.pcf -ucf FA1bit_schema.ucf 
+bitgen -intstyle ise -f FA1bit_schema.ut FA1bit_schema.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FA1bit_schema.ucf -p xc3s250e-cp132-4 FA1bit_schema.ngc FA1bit_schema.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o FA1bit_schema_map.ncd FA1bit_schema.ngd FA1bit_schema.pcf 
+par -w -intstyle ise -ol high -t 1 FA1bit_schema_map.ncd FA1bit_schema.ncd FA1bit_schema.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FA1bit_schema.twx FA1bit_schema.ncd -o FA1bit_schema.twr FA1bit_schema.pcf -ucf FA1bit_schema.ucf 
+bitgen -intstyle ise -f FA1bit_schema.ut FA1bit_schema.ncd 
