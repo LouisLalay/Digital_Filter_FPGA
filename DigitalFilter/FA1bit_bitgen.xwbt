@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter/FA1bit.ncd
+OUTFILE=/home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter/FA1bit.bit
+FAMILY=Spartan3E
+PART=xc3s250e-4cp132
+WORKINGDIR=/home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter
+LICENSE=WebPack
+USER_INFO=211477717_0_0_410

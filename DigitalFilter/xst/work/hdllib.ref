@@ -1,2 +1,4 @@
-EN fa1bit_schema NULL /home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter/FA1bit_schema.vhf sub00/vhpl00 1633677133
-AR fa1bit_schema behavioral /home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter/FA1bit_schema.vhf sub00/vhpl01 1633677134
+EN fa1bit NULL /home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter/FA1bit.vhd sub00/vhpl00 1633682767
+EN fa4bits NULL /home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter/FA4bits.vhd sub00/vhpl02 1633682769
+AR fa1bit model /home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter/FA1bit.vhd sub00/vhpl01 1633682768
+AR fa4bits behavioral /home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter/FA4bits.vhd sub00/vhpl03 1633682770

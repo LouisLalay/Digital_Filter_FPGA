@@ -1,0 +1,75 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -953 day(s)
+INFO: [Device 21-36] Loading parts and site information from /usr/local/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/usr/local/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/usr/local/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source /home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter/pa.fromHdl.tcl
+# create_project -name DigitalFilter -dir "/home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter/planAhead_run_2" -part xc3s250ecp132-4
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "FA4bits.ucf" [current_fileset -constrset]
+Adding file '/home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter/FA4bits.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {FA1bit.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {FA4bits.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top FA4bits $srcset
+# add_files [list {FA4bits.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s250ecp132-4
+Using Verific elaboration
+Parsing VHDL file "/usr/local/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "/usr/local/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "/home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter/FA1bit.vhd" into library work
+Parsing VHDL file "/home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter/FA4bits.vhd" into library work
+INFO: [Designutils 20-910] Reading macro library /usr/local/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [/usr/local/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [/usr/local/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from /usr/local/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3e/spartan3e/xc3s250e/ClockRegion.xml
+Loading clock buffers from /usr/local/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3e/spartan3e/xc3s250e/ClockBuffers.xml
+Loading package from /usr/local/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3e/spartan3e/xc3s250e/cp132/Package.xml
+Loading io standards from /usr/local/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from /usr/local/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3e/spartan3e/xc3s250e/cp132/SSORules.xml
+Loading list of drcs for the architecture : /usr/local/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library /usr/local/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library /usr/local/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [/home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter/FA4bits.ucf]
+Finished Parsing UCF File [/home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter/FA4bits.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 70e1d8c7
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin G1 [get_ports {S[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {S[0]}]]
+startgroup
+set_property package_pin G1 [get_ports {S[3]}]
+endgroup
+startgroup
+set_property package_pin N5 [get_ports {S[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {S[2]}]]
+startgroup
+set_property package_pin N4 [get_ports {S[1]}]
+endgroup
+startgroup
+set_property package_pin P4 [get_ports {S[2]}]
+endgroup
+startgroup
+set_property package_pin G1 [get_ports {S[3]}]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Fri Oct  8 10:51:46 2021...
+INFO: [Common 17-83] Releasing license: PlanAhead

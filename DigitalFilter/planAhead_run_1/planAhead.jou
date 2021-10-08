@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Fri Oct  8 10:42:41 2021
+# Process ID: 4237
+# Log file: /home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter/planAhead_run_1/planAhead.log
+# Journal file: /home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/user/permanent/MONGAILLARD_Thomas/VHDL/DigitalFilter/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin N3 [get_ports {A[3]}]
+endgroup
+startgroup
+set_property package_pin E2 [get_ports {A[2]}]
+endgroup
+startgroup
+set_property package_pin F3 [get_ports {A[1]}]
+endgroup
+startgroup
+set_property package_pin G3 [get_ports {A[0]}]
+endgroup
+startgroup
+set_property package_pin B4 [get_ports {B[3]}]
+endgroup
+startgroup
+set_property package_pin K3 [get_ports {B[2]}]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports {B[1]}]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports {B[0]}]
+endgroup
+startgroup
+set_property package_pin N5 [get_ports {S[3]}]
+endgroup
+startgroup
+set_property package_pin N4 [get_ports {S[2]}]
+endgroup
+startgroup
+set_property package_pin P4 [get_ports {S[1]}]
+endgroup
+startgroup
+set_property package_pin G1 [get_ports {S[0]}]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports C_in]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports C_out]
+endgroup
+save_constraints

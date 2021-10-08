@@ -1,0 +1,6 @@
+
+
+NET "A" LOC = P11;
+NET "B" LOC = L3;
+NET "C" LOC = G1;
+NET "S" LOC = P4;
